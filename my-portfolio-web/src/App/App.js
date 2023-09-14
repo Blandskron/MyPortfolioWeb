@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import NavBar from '../Components/navBar/navBar';
 import TitleSection from '../Components/titleSection/titleSection';
-import perfilImage from '../assets/perfil.jpg';
 
 
 function App() {
