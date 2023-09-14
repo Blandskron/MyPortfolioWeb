@@ -1,0 +1,85 @@
+@media(max-width: 769px) {
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .title_info {
+        padding: 20px;
+    }
+
+    .menu__social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .pAbout {
+        padding: 7px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .Soft {
+        padding: 7px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .liHard {
+        padding: 7px;
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+    color: #b2bed7;
+    text-align: center;
+}
+
+h2 {
+    color: #b2bed7;
+    font-size: 48px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: #FFFF00;
+    padding: 7px;
+}
+
+.imgPerfil {
+    border-radius: 50%;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    margin: 50px;
+}
