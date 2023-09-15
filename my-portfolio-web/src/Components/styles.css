@@ -1,0 +1,16 @@
+.codContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.cod {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .codContainer {
+        width: 100%;
+    }
+}
