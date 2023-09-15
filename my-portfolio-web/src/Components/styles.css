@@ -1,0 +1,15 @@
+.codContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.cod {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .codContainer {
+        width: 90%;
+    }
+}
