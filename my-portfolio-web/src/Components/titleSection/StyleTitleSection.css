@@ -1,8 +1,26 @@
 .title {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.column {
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 30px;
+    justify-content: center;
+  }
+
+.imgPerfil {
+    border-radius: 50%;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    margin: 20px;
 }
 
 h1 {
@@ -23,25 +41,9 @@ h3 {
     padding: 7px;
 }
 
-.imgDiv {
-    margin: 20px;
-}
-
-.imgPerfil {
-    border-radius: 50%;
-    width: 300px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-    margin: 50px;
-}
-
-@media(max-width: 769px) {
-    .title {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 5px;
+@media(max-width: 768px) {
+    .column {
+        width: 90%;
+        /*flex-basis: 90%;*/
     }
-
 }

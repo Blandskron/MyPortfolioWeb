@@ -6,9 +6,9 @@ function NavBar() {
       <header className='headerNav'>
         <nav class="menu__headlist">
             <ul class="menu__list">
-                <li className=''><a href="#About">About</a></li>
-                <li class="list__menu"><a href="#Soft">Soft Skills</a></li>
-                <li class="list__menu"><a href="#Hard">Hard Skills</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Soft">Soft Skills</a></li>
+              <li><a href="#Hard">Hard Skills</a></li>
             </ul>
         </nav>
       </header>
