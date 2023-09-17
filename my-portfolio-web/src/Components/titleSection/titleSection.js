@@ -41,11 +41,9 @@ function TitleSection() {
           <h2>Bastian Landskron</h2>
           <img className='imgPerfil' src={perfilImage} alt="Foto de perfil bastian landskron" />
           <nav className="Social">
-                <ul class="menu__social">
-                    <li class="social__menu"><a href="https://github.com/Blandskron" target="_blank">Github</a></li>
-                    <li class="social__menu"><a href="https://www.linkedin.com/in/blandskron/" target="_blank">LinkedIn</a></li>
-                    <li class="social__menu"><a href="../assets/pdf/BlandskronCV2023.pdf" download="CVBlandskron" target="_blank">Cv</a></li>
-                    <li class="social__menu"><a href="pdf/LetterBlandskron.pdf" download="LetterBlandskron" target="_blank">Letter for recruiter</a></li>
+                <ul>
+                    <li><a href="/BlandskronCV2023.pdf" download>Download CV</a></li>
+                    <li></li>
                 </ul>
             </nav>
         </div>

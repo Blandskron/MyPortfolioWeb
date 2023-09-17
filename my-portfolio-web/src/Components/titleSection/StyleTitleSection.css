@@ -41,6 +41,18 @@ h3 {
     padding: 7px;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    color: #FFFF00;
+    margin: 5px;
+}
+
 @media(max-width: 768px) {
     .column {
         width: 90%;
