@@ -1,0 +1,9 @@
+.HardSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badge {
+    margin: 20px;
+}
