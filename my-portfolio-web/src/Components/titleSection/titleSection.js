@@ -44,7 +44,7 @@ function TitleSection() {
                 <ul class="menu__social">
                     <li class="social__menu"><a href="https://github.com/Blandskron" target="_blank">Github</a></li>
                     <li class="social__menu"><a href="https://www.linkedin.com/in/blandskron/" target="_blank">LinkedIn</a></li>
-                    <li class="social__menu"><a href="pdf/CVBlandskron.pdf" download="CVBlandskron" target="_blank">Cv</a></li>
+                    <li class="social__menu"><a href="../assets/pdf/BlandskronCV2023.pdf" download="CVBlandskron" target="_blank">Cv</a></li>
                     <li class="social__menu"><a href="pdf/LetterBlandskron.pdf" download="LetterBlandskron" target="_blank">Letter for recruiter</a></li>
                 </ul>
             </nav>

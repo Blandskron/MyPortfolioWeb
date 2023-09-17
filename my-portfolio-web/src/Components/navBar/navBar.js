@@ -8,7 +8,7 @@ function NavBar() {
             <ul class="menu__list">
               <li><a href="#About">About</a></li>
               <li><a href="#Soft">Soft Skills</a></li>
-              <li><a href="#Hard">Hard Skills</a></li>
+              <li><a href="#HardSkills">Hard Skills</a></li>
             </ul>
         </nav>
       </header>
