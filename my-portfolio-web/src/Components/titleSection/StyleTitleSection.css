@@ -46,6 +46,10 @@ a {
     margin: 5px;
 }
 
+a:hover {
+    transform: scale(1.1);
+}
+
 @media(max-width: 768px) {
     .column {
         width: 90%;
