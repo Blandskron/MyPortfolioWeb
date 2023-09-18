@@ -30,16 +30,8 @@ Have ideas to make my website even cooler? Awesome! I welcome contributions in t
 
 Thanks for visiting my portfolio website. Take your time to explore and have fun. I hope you enjoy your visit as much as I enjoyed creating this site!
 
-```javascript
-function enjoyPortfolio() {
-  console.log("Enjoy the ride through my portfolio!");
-}
-
-enjoyPortfolio();
-
-<div className='titleSkills'>
             <p>Programming Languages:</p>
-          </div>
+
           <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=%233776AB&labelColor=white&color=%233776AB" />
           <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=%231572B6&labelColor=white&color=%231572B6" />
           <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=%23F7DF1E&labelColor=white&color=%23F7DF1E" />
