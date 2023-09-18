@@ -32,7 +32,7 @@ Thanks for visiting my portfolio website. Take your time to explore and have fun
 
 
 
-          <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=%233776AB&labelColor=white&color=%233776AB">
+          <img alt="Static Badge" src="https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=%233776AB&labelColor=white&color=%233776AB"/>
           <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=%231572B6&labelColor=white&color=%231572B6">
           <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=%23F7DF1E&labelColor=white&color=%23F7DF1E">
           <img className='badge' alt="Static Badge" src="https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=html5&logoColor=%23E34F26&labelColor=white&color=%23E34F26" />
