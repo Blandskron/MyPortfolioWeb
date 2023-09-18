@@ -9,18 +9,41 @@
     border-bottom: 2px solid #2e3c51;
 }
 
+.socialcolumn1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.socialcolumn2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .badgeNav {
     margin-right: 10px;
 }
 
 @media (max-width: 768px) {
     .headerNav {
-        display: grid;
-        justify-items: stretch;
-        align-items: start;
-        justify-content: start;
-        align-content: center;
+        display: flex;
         height: 120px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .socialcolumn1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .socialcolumn2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     .badgeNav {
