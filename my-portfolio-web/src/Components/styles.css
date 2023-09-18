@@ -1,12 +1,76 @@
-.codContainer {
+.fullContainer {
     width: 90%;
     display: flex;
-    justify-content: center;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    border: 2px solid #2e3c51;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 20px;
 }
 
-.cod {
+.headNav {
+    background-color: #e7e5e7;
     width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circule {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle1 {
+    margin: 5px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fc615d;
+}
+
+.circle2 {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fdbd40;
+}
+
+.circle3 {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #34c84a;
+}
+
+.nameSection {
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconSection {
+    margin-right: 10px;
+}
+
+.codContainer {
+    width: auto;
+}
+
+.codStyle {
+    width: auto;
 }
 
 @media(max-width: 768px) {
