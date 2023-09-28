@@ -4,15 +4,21 @@ import NavBar from '../Components/navBar/navBar';
 import TitleSection from '../Components/titleSection/titleSection';
 import Aboutme from '../Components/aboutme/aboutme';
 import HardSkills from '../Components/hardSkills/hardSkils';
+import InteractiveBackground from '../Components/background/interactiveBackground'; 
 
 
 function App() {
   return (
     <div className='app'>
       <NavBar />
-      <TitleSection />
-      <Aboutme />
-      <HardSkills />
+      <div className='background-container'>
+        <InteractiveBackground />
+      </div>
+      <div className="overlayed-content">
+        <TitleSection />
+        <Aboutme />
+        <HardSkills />
+      </div>
     </div>
   );
 }

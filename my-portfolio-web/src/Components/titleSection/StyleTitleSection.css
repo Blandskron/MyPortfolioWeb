@@ -15,30 +15,16 @@
     justify-content: center;
   }
 
+.fullstack {
+    padding-left: 150px;
+}
+
 .imgPerfil {
     border-radius: 50%;
     width: 300px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
     margin: 20px;
-}
-
-h1 {
-    font-size: 72px;
-    color: #b2bed7;
-    text-align: center;
-}
-
-h2 {
-    color: #b2bed7;
-    font-size: 32px;
-    text-align: center;
-}
-
-h3 {
-    font-size: 48px;
-    color: #FFFF00;
-    padding: 7px;
 }
 
 a {
@@ -51,6 +37,10 @@ a:hover {
 }
 
 @media(max-width: 768px) {
+    .title {
+        margin-top: 50px;
+    }
+
     .column {
         width: 90%;
     }
